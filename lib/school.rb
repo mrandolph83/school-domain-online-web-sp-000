@@ -19,7 +19,7 @@ class School
   roster[grade_level]
   end
 
-  def sort(roster)
+  def sort
     names_sorted={}
     roster.each do |grade, names|
       names_sorted[grade]=names.sort
