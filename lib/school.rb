@@ -14,7 +14,6 @@ class School
       roster[grade] = [name]
     end
   end
-end
 
   def grade(grade_level)
   roster[grade_level]
