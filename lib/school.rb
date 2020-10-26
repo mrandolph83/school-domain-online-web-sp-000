@@ -15,3 +15,8 @@ class School
     end
   end
 end
+
+def grade
+  roster.map do |grade, name|
+    name
+end
