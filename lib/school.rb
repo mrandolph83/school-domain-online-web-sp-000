@@ -16,8 +16,8 @@ class School
   end
 end
 
-def grade
-  roster.map do |grade, name|
-    name
+def grade(grade_level)
+  roster.each do |grade_level, name|
+    grade_level.values
   end
 end
