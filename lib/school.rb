@@ -1,5 +1,6 @@
 # code here!
 class School
+  attr_accessrod :name, :roster
 
     def initialize(name)
       @name = name
