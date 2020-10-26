@@ -19,4 +19,5 @@ end
 def grade
   roster.map do |grade, name|
     name
+  end
 end
