@@ -18,6 +18,7 @@ end
 
 def grade(grade_level)
   roster.each do |grade_level, name|
-    grade_level.values
+    grade_level.flatten
   end
+  grade_level
 end
